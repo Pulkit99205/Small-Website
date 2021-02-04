@@ -1,0 +1,23 @@
+{
+  "name": "new-folder",
+  "version": "1.0.0",
+  "description": "\"this is great to learn\"",
+  "main": "index.html",
+  "scripts": {
+  	"start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server",
+    "scss": "node-sass -o css/ css/"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Pulkit2254@bitbucket.org/Pulkit2254/git-test.git"
+  },
+  "author": "Pulkit",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Pulkit2254/git-test#readme",
+  "devDependencies": {
+    "lite-server": "^2.0.1"
+  }
+}
